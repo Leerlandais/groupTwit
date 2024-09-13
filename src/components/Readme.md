@@ -1,1 +1,0 @@
-# Mettez les composants ici et pas dans /src
