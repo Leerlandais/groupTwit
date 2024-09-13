@@ -1,4 +1,13 @@
 {
+  "name": "grouptwit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cross-env PORT=3001 npm start --prefix client\" \"npm start --prefix server\"",
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "clonefix": "npm install --prefix server && npm install --prefix client && npm install"
+  },
   "devDependencies": {
     "concurrently": "^9.0.1",
     "cross-env": "^7.0.3"
