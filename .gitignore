@@ -6,7 +6,7 @@
 *.ntvs*
 *.njsproj
 *.sln
-
+.idea/vcs.xml
 # Configuration Files #
 #######################
 config.php
