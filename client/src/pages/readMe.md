@@ -1,0 +1,1 @@
+## Mettez toutes les pages et uniquement eux dans ce dossier

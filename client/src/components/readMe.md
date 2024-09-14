@@ -1,0 +1,1 @@
+## Mettez toutes les composants et uniquement eux dans ce dossier
