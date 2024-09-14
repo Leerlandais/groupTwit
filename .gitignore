@@ -74,5 +74,4 @@ pnpm-debug.log*
 
 # Symfony Specific Ignores #
 ############################
-/bin/
 /public/bundles/
