@@ -42,5 +42,4 @@ pnpm-debug.log*
 *.tsbuildinfo
 .npm/
 .yarn/
-/bin/
 /public/bundles/
