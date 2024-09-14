@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "mkdir -p server/bin && echo \"#bin folder created\" > server/bin/.gitkeep",
     "start": "concurrently --kill-others-on-fail \"cross-env PORT=3001 npm start --prefix client\" \"npm start --prefix server\"",
     "client": "npm start --prefix client",
     "server": "npm start --prefix server",
