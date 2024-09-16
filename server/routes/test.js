@@ -3,6 +3,8 @@ const router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
+    console.log(req.query);
+    let nom = req.query.nom;
 res.send('<!DOCTYPE html>\n' +
     '<html>\n' +
     '  <head>\n' +
@@ -11,7 +13,7 @@ res.send('<!DOCTYPE html>\n' +
     '  </head>\n' +
     '  <body>\n' +
     '    <h1>Postman Test</h1>\n' +
-    '    <p>First test</p>\n' +
+    `    <p>Hello ${nom}</p>\n` +
     '  </body>\n' +
     '</html>');
 });
